@@ -99,15 +99,6 @@ else:
     selected_item_price_value = 10310
 
 print(selected_item_price_value)
-"""
-if selected_item_price_value:
-    selected_item_price_value = 5160
-    print(selected_item_price_value)
-else:
-    selected_item_price_value = 10310
-    print(selected_item_price_value)
-"""
-
 
 selected_item.click()
 driver.implicitly_wait(10)
